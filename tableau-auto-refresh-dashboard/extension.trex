@@ -9,9 +9,7 @@
        <source-location>
          <url>https://dennis-tsvetkov.github.io/tableau-auto-refresh-dashboard/</url>
        </source-location>
-       <context-menu>
-         <configure-context-menu-item />
-       </context-menu>
+       <icon></icon>
      </dashboard-extension>
      <resources>
        <resource id="name">
