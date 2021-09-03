@@ -66,3 +66,4 @@ function setUpdatePeriod(v){
     }, period * 1000);
   }
 }
+
