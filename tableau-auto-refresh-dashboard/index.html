@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Hello Extensions</title>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="/javascripts/api/tableau-2.min.js"></script>
+     <script src="./hello-extension.js"></script>
+   </head>
+   <body style="Font-family: Tahoma, Verdana, Sans; Font-size: 10pt">
+     <div class="container">
+       
+<!--        <button id="btn1" class="btn btn-primary">button1</button> -->
+       View's URL <input type="text" id="view-url" style="width: 70em"></input><br/>
+       Auto-update every
+       <select id="periods">
+         <option value="-1">never</option>
+         <option value="5">5 sec</option>
+         <option value="15">15 sec</option>
+         <option value="60">60 sec</option>
+         <option value="300">5 min</option>
+         <option value="600">10 min</option>
+       </select>
+
+       <div id="viz"></div>
+     </div>
+
+    
+   </body>
+ </html>
