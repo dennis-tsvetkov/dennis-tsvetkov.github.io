@@ -7,7 +7,7 @@
        <author name="Denis Tsvetkov" email="dennis.tsvetkov@gmail.com" organization="dennis.tsvetkov" website="https:///"/>
        <min-api-version>1.0</min-api-version>
        <source-location>
-         <url>https://clean-gusty-cockroach.glitch.me/</url>
+         <url>https://dennis-tsvetkov.github.io/tableau-auto-refresh-dashboard/</url>
        </source-location>
        <context-menu>
          <configure-context-menu-item />
